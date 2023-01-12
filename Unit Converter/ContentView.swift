@@ -19,6 +19,7 @@ struct ContentView: View {
     private let measurementUnitList = LengthConverter.measurementUnitList
     
     //will make a class for length converter
+    //next step - make a function for reading the input measurement and converting it to the middle man value
     class LengthConverter {
         static public let measurementUnitList = ["m","mm","cm", "km","in.", "ft", "mi."];
         
